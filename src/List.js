@@ -10,9 +10,12 @@ export default class List extends React.Component{
             <h1>DashboardList</h1>
                 <ul>
                     {
-                        this.props.items.map((item)=> {
+                        this.props.items.map((item, index)=> {
                             return <ListItem key={item.title} title ={item.title} 
-                                              link={item.link} link ={item.link}/>
+                                             link ={item.link}
+                                             index={index}
+                                             onItemClicked={(idx) => this.props.onItemClicked && this.props.onItemClicked(idx)}
+                                    />
                         })
                     }
                 </ul>
