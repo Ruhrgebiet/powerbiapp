@@ -32,6 +32,7 @@ export default class App extends Component {
       <div className="App">
         <List title="DashboardList" items={this.state.ListItem}/> 
         <EmbededReport link={this.state.EmbededReport[0].link} />  
+      </div>
     );
   }
 }
