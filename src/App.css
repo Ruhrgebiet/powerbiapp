@@ -1,3 +1,10 @@
+
+#EmbededReport{
+    height: 75vh;
+    width: 100vw;
+    border: 2px solid yellow;
+}
+
 ul li {
     display:inline-block;
     background-color:#eee;
