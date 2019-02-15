@@ -1,5 +1,15 @@
+
 #EmbededReport{
     height: 75vh;
     width: 100vw;
     border: 2px solid yellow;
+}
+
+ul li {
+    display:inline-block;
+    background-color:#eee;
+    list-style-type:none;
+    margin-right:-4px;
+    padding:10px;
+    border-right:1px solid white;
 }
